@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open sans', sans-serif;
+
+}
+
+body {
+	background-color: #d1d1d1;
+}
+
+header {
+	background-color: #e8e6e6;
+	padding: 30px;
+}
+
+header > h1 {
+	color: #7e0319;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.scoreboard {
+	margin: 25px auto;
+	border: 2px solid #7e0319;
+	border-radius: 5px;
+	text-align: center;
+	width: 225px;
+	color: #7e0319;
+	font-size: 26px;
+	padding: 15px;
+	font-family: 'Open sans', sans-serif;
+	position: relative;
+}
+
+.score {
+	background: #4a4243;
+	color: white;
+	font-size: 15px;
+	padding: 10px 20px;
+	font-family: 'Open sans' ,sans-serif;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+#player-score {
+	position: absolute;
+    top: 12px;
+    left: -38.5px;
+}
+
+#comp-score {
+	position: absolute;
+	top: 12px;
+    right: -55px;
+}
+
+.score-state {
+	opacity: 0.8;
+	font-family: 'Open sans', sans-serif;
+	font-weight: bold; 
+}
+
+#rules {
+	position: absolute;
+	top: 11px;
+    left: -505px;
+}
+
+#beat {
+	position: absolute;
+	top: 13px;
+    right: -375px;
+}
+
+.round-statement, .game-statement {
+	font-size: 30px;
+	color: #7e0319;
+	padding: 15px;
+	padding-top: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.round-statement > p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.game-statement > p { 
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+ }
+
+.rps {
+	text-align: center;
+	margin: 15px 0;
+}
+
+.choice {
+	display: inline-block;
+	font-size: 25px;
+	margin: auto 25px;
+}
+
+button {
+	background: #4a4243;
+	border-radius: 5px;
+	font-family: 'Open sans', sans-serif;
+	color: white;
+	font-size: 15px;
+	border: 0;
+	height: 50px;
+	width: 150px;
+}
+

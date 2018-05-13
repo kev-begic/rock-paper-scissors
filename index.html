@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kevin's Rock Paper Scissors Game</title>
+	<link rel="stylesheet" href="rps.css">
+</head>
+<body>
+	<header>
+		<h1>Rock! Paper! Scissors!</h1>
+	</header>
+
+	<div class="scoreboard">
+		<div id="rules" class="score-state">
+			<p>Play Against the Computer!</p>
+		</div>
+		<div id="beat" class="score-state">
+			<p>Best of Five Wins!</p>
+		</div>
+		<div id="player-score" class="score">Player</div>
+		<div id="comp-score" class="score">Computer</div>
+		<span id="rgs">0</span>:<span id="lgs">0</span>
+	</div>
+
+	<div class="round-statement">
+		<p>Who Wins This Round?</p>
+	</div>
+
+	<div class="rps">
+		<button class="choice" id="rock">Rock</button>
+		<button class="choice" id="paper">Paper</button>
+		<button class="choice" id="scissors">Scissors</button>
+	</div>
+
+	<div class="game-statement">
+		<p>Who Will Win?</p>
+	</div>
+
+	<script src="rps.js" charset="utf-8"></script>
+
+</body>
+</html>
